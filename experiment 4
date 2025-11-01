@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 4 - Hotel Room Booking Form</title>
+</head>
+<body>
+  <form>
+    <fieldset align="center">
+      <caption><h2>Hotel Room Booking Form</h2></caption>
+      <br>
+
+      <label>Full Name:</label>
+      <input type="text" placeholder="Enter your full name" required><br><br>
+
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email" required><br><br>
+
+      <label>Phone:</label>
+      <input type="tel" minlength="10" maxlength="10" placeholder="Enter phone number"><br><br>
+
+      <label>Check-in Date:</label>
+      <input type="date"><br><br>
+
+      <label>Check-out Date:</label>
+      <input type="date"><br><br>
+
+      <label>Room Type:</label>
+      <select>
+        <option value="">Single Room</option>
+        <option value="">Double Bedroom</option>
+        <option value="">AC Single Room</option>
+        <option value="">Double AC Room</option>
+      </select><br><br>
+
+      <label>Number of Guests:</label>
+      <input type="number" min="1" max="10" placeholder="Enter number of guests"><br><br>
+
+      <label>Special Requests:</label><br>
+      <textarea cols="50" rows="8" placeholder="Any special requests"></textarea><br><br>
+
+      <button type="submit">Book Now</button>
+      <input type="reset" value="Reset Form">
+    </fieldset>
+  </form>
+</body>
+</html>
+
+

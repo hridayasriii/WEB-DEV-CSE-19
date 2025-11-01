@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 5</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <caption><h2 align="center">Student Registration Form</h2></caption>
+      <hr>
+
+      <label>Full Name:</label>
+      <input type="text" placeholder="Enter your full name" required><br><br>
+
+      <label>Email:</label>
+      <input type="email" placeholder="Enter valid email address" required><br><br>
+
+      <label>Password:</label>
+      <input type="password" placeholder="Enter password" required><br><br>
+
+      <label>Gender:</label>
+      <input type="radio" name="gender"> Male
+      <input type="radio" name="gender"> Female
+      <input type="radio" name="gender"> Other<br><br>
+
+      <label>Course:</label>
+      <select required>
+        <option value="">--Select Course--</option>
+        <option value="btech">B.Tech</option>
+        <option value="bca">BCA</option>
+        <option value="bsc">B.Sc</option>
+        <option value="mba">MBA</option>
+      </select><br><br>
+
+      <label>Contact No:</label>
+      <input type="tel" placeholder="Enter phone number"
+             minlength="10" maxlength="10" required><br><br>
+
+      <label>Address:</label><br>
+      <textarea cols="50" rows="6" placeholder="Enter your address"></textarea><br><br>
+
+      <button type="submit">Register</button>
+      <input type="reset" value="Clear">
+
+      <hr>
+      <h5 align="center">&copy; 2025 Student Registration Portal</h5>
+    </fieldset>
+  </form>
+</body>
+</html>
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 3 - College Timetable (CSE-19)</title>
+</head>
+<body>
+  <h2 align="center">College Timetable - CSE 19</h2>
+  <h3 align="center">Department of Computer Science & Engineering</h3>
+  <h4 align="center">Class Room No: BH-306 | Session 2025-26 (Odd Semester)</h4>
+
+  <table border="1" align="center" cellspacing="0" cellpadding="6">
+    <caption><b>B.Tech I Year - Section: CSE-19</b></caption>
+    <tr align="center">
+      <th>Day / Time</th>
+      <th>I<br>08:50-09:40</th>
+      <th>II<br>09:40-10:30</th>
+      <th>III<br>10:40-11:30</th>
+      <th>IV<br>11:30-12:20</th>
+      <th>V<br>12:20-01:10<br>(Lunch)</th>
+      <th>VI<br>01:10-02:00</th>
+      <th>VII<br>02:00-02:50</th>
+      <th>VIII<br>02:50-03:40</th>
+      <th>IX<br>03:40-04:30</th>
+    </tr>
+
+    <!-- M -->
+    <tr align="center">
+      <td><b>Monday</b></td>
+      <td>25AS102<br>(BP)<br>BH-306</td>
+      <td>25EL101<br>(PG)<br>BH-306</td>
+      <td colspan="2">25ME152<br>(SA,MM)<br>RJ Block I Floor (RJ-109)</td>
+      <td rowspan="6"><b>LUNCH</b></td>
+      <td>25AS101<br>(YT)<br>BH-306</td>
+      <td>25VA151<br>(MN)<br>BH-306</td>
+      <td>25AS101<br>(PPS)<br>BH-306</td>
+      <td>25AS103<br>(TR)<br>BH-306</td>
+    </tr>
+
+    <!-- T-->
+    <tr align="center">
+      <td><b>Tuesday</b></td>
+      <td colspan="2">25CS101<br>(ARS)<br>BH-306</td>
+      <td colspan="2">25EL151<br>(PG,AB)<br>RJ-Basement</td>
+      <td>25AS102<br>(BP)<br>BH-306</td>
+      <td>25AS101<br>(YT)<br>BH-306</td>
+      <td>25AI101<br>(PPS)<br>BH-306</td>
+      <td>25EL101<br>(PG)<br>BH-306</td>
+    </tr>
+
+    <!-- W -->
+    <tr align="center">
+      <td><b>Wednesday</b></td>
+      <td colspan="2">25AS151<br>(YT,AKP)<br>KC Block III Floor (KC-310)</td>
+      <td>25AS102<br>(BP)<br>BH-306</td>
+      <td>25AS101<br>(YT)<br>BH-306</td>
+      <td>25EL101<br>(PG)<br>BH-306</td>
+      <td colspan="2">25CS101<br>(ARS)<br>BH-306</td>
+      <td></td>
+    </tr>
+
+    <!--T-->
+    <tr align="center">
+      <td><b>Thursday</b></td>
+      <td colspan="2">25CS151<br>(ARS)<br>BH-306</td>
+      <td>25AS103<br>(TR)<br>BH-306</td>
+      <td>25EL101<br>(PG)<br>BH-306</td>
+      <td>25AS102<br>(BP)<br>BH-306</td>
+      <td>25AI101<br>(PPS)<br>BH-306</td>
+      <td>25AS101<br>(YT)<br>BH-306</td>
+      <td>25AS102<br>(BP)<br>BH-306</td>
+    </tr>
+    <!--F-->
+    <tr align="center">
+      <td><b>Friday</b></td>
+      <td>25AS102<br>(BP)<br>BH-306</td>
+      <td>25AS103<br>(TR)<br>BH-306</td>
+      <td>25EL101<br>(PG)<br>BH-306</td>
+      <td>25AS101<br>(YT)<br>BH-306</td>
+      <td colspan="2">25VA151<br>(MN)<br>KC Block V Floor (KC-509)</td>
+      <td>25AS102<br>(BP)<br>BH-306</td>
+      <td colspan="2">Mentor–Mentee<br>(PG,BP)<br>BH-306</td>
+    </tr>
+
+  </table>
+</body>
+</html>
